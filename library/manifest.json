@@ -1,0 +1,61 @@
+{
+  "iterations": 200000,
+  "verify": {
+    "iv": "4fe90413bf918a9fa206f7f4",
+    "ct": "5759cbad0833f770c1f1fa82c79e63c1ef89b7c0f53c2707"
+  },
+  "files": [
+    {
+      "id": "260424-105834-3d447e",
+      "name": "IMG_1892.MOV",
+      "size": 52367992,
+      "mime": "video/quicktime",
+      "uploaded": "2026-04-24T10:58:34.238Z",
+      "chunks": [
+        {
+          "name": "260424-105834-3d447e-01.enc",
+          "iv": "84934767b9d4d1f1eef5b1b9",
+          "size": 51380240
+        },
+        {
+          "name": "260424-105834-3d447e-02.enc",
+          "iv": "aa9894f23021fc2ebd3c113f",
+          "size": 987784
+        }
+      ]
+    },
+    {
+      "id": "260424-105834-5608d4",
+      "name": "IMG_1893.MOV",
+      "size": 17478411,
+      "mime": "video/quicktime",
+      "uploaded": "2026-04-24T10:58:34.288Z",
+      "chunks": [
+        {
+          "name": "260424-105834-5608d4-01.enc",
+          "iv": "2da605f988b27c7dd0db3d28",
+          "size": 17478427
+        }
+      ]
+    },
+    {
+      "id": "260424-105834-925803",
+      "name": "IMG_1894.MOV",
+      "size": 65426242,
+      "mime": "video/quicktime",
+      "uploaded": "2026-04-24T10:58:34.455Z",
+      "chunks": [
+        {
+          "name": "260424-105834-925803-01.enc",
+          "iv": "a9a00153288062cacbad7981",
+          "size": 51380240
+        },
+        {
+          "name": "260424-105834-925803-02.enc",
+          "iv": "916ac2727ab3bcb965d505a1",
+          "size": 14046034
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Vault</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="gate">
+      <form id="loginForm" autocomplete="off">
+        <input id="pw" type="password" autocomplete="off" autofocus />
+      </form>
+    </main>
+
+    <main id="app" hidden>
+      <table id="files">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Size</th>
+            <th>Uploaded</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div id="status"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
