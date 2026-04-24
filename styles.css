@@ -13,7 +13,8 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background: var(--bg);
+  background: var(--bg) url("favicon.svg") center center / min(60vmin, 480px)
+    no-repeat fixed;
   color: var(--fg);
   font:
     14px/1.5 system-ui,
